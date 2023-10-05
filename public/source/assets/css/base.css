@@ -1,0 +1,77 @@
+:root {
+    --white-color:#fff;
+    --black-color:#000;
+    --yellow-color:#ffea00;
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes app-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.grid {
+    max-width: 100%;
+    width: 1400px;
+    margin:0 auto ;
+}
+
+.grid__row {
+    margin-left: -5px;
+    margin-right: -5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__column-12 {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.grid__column-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    /* background-color: black; */
+    width: 25%;
+}
+
+.grid__column-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+}
+
+.grid__column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    /* background-color: #ffea00; */
+    /* height: 100px; */
+}
+
+.grid__column-9 {
+    width: 75%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
